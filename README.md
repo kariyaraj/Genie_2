@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
-# Genius - A Modern Next.js 14 SaaS AI Platform.
+# Genie - A Modern Next.js 14 SaaS AI Platform.
 
-![Genius - A Modern Next.js 14 SaaS AI Platform.](/.github/images/img_main.png "Genius - A Modern Next.js 14 SaaS AI Platform.")
+![Genie - A Modern Next.js 14 SaaS AI Platform.](/.github/images/img_main.png "Genius - A Modern Next.js 14 SaaS AI Platform.")
 
 [![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
 [![GitHub license](https://flat.badgen.net/github/license/sanidhyy/genius-ai?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/genius-ai/blob/main/LICENSE "GitHub license")
@@ -188,15 +188,9 @@ NEXT_PUBLIC_CRISP_WEBSITE_ID=xxxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx
 - Copy the "Publishable Key" and replace `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` in the `.env.local` file with the copied key.
 - Copy the "Secret Key" and replace `CLERK_SECRET_KEY` in the `.env.local` file with the copied key.
 
-### 6. OpenAI API Key
 
-Visit [OpenAI](https://platform.openai.com/signup/) and sign up for an account. Once registered, you can find your API key in the API section of your account settings. Copy the key and set it as the `OPENAI_API_KEY` in your project's environment.
 
-```env
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-### 7. Replicate API Token
+### 6. Replicate API Token
 
 Sign up or log in to [Replicate](https://replicate.ai/). Once logged in, navigate to your account settings, and you'll find your API token. Copy the token and set it as the `REPLICATE_API_TOKEN` in your project's environment.
 
@@ -204,7 +198,7 @@ Sign up or log in to [Replicate](https://replicate.ai/). Once logged in, navigat
 REPLICATE_API_TOKEN=r8_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-### 8. Aiven Database URL
+### 7. Aiven Database URL
 
 If you don't have an Aiven account, sign up [here](https://aiven.io/). After creating an account, set up a MySQL database. In the Aiven dashboard, find your database connection details and construct the `DATABASE_URL` in the following format:
 
@@ -212,7 +206,7 @@ If you don't have an Aiven account, sign up [here](https://aiven.io/). After cre
 DATABASE_URL="mysql://<username>:<password>@<host>:<port>/genius-ai?ssl-mode=REQUIRED"
 ```
 
-### 9. Stripe API and Webhook Keys
+### 8. Stripe API and Webhook Keys
 
 For Stripe, sign up or log in to your [Stripe Dashboard](https://dashboard.stripe.com/register). Once logged in, go to Developers > API keys to find your API secret key and webhook secret. Set them as `STRIPE_API_SECRET_KEY` and `STRIPE_WEBHOOK_SECRET` in your project's environment.
 
@@ -221,7 +215,7 @@ STRIPE_API_SECRET_KEY=sk_test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 STRIPE_WEBHOOK_SECRET=whsec_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-### 10. App Base URL
+### 9. App Base URL
 
 Set the base URL of your application as `NEXT_PUBLIC_APP_URL` in your project's environment.
 
@@ -229,7 +223,7 @@ Set the base URL of your application as `NEXT_PUBLIC_APP_URL` in your project's 
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
-### 11. Crisp Website ID
+### 10. Crisp Website ID
 
 Sign up on [Crisp](https://crisp.chat/en/) and create a website. Once created, find your website ID in the Crisp dashboard and set it as `NEXT_PUBLIC_CRISP_WEBSITE_ID` in your project's environment.
 
@@ -237,9 +231,9 @@ Sign up on [Crisp](https://crisp.chat/en/) and create a website. Once created, f
 NEXT_PUBLIC_CRISP_WEBSITE_ID=xxxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx
 ```
 
-12. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+11. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
 
-13. Now app is fully configured 👍 and you can start using this app using either one of `npm run dev` or `yarn dev`.
+12. Now app is fully configured 👍 and you can start using this app using either one of `npm run dev` or `yarn dev`.
 
 **NOTE:** Please make sure to keep your API keys and configuration values secure and do not expose them publicly.
 
@@ -310,13 +304,7 @@ Useful resources and dependencies that are used in Genius.
 
 ## :coffee: Buy Me a Coffee
 
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
-
-## :rocket: Follow Me
-
-[![Follow Me](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Tweet about this project](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fgenius-ai "Tweet about this project")
-[![Subscribe to my YouTube Channel](https://img.shields.io/youtube/channel/subscribers/UCNAz_hUVBG2ZUN8TVm0bmYw)](https://www.youtube.com/@OPGAMER./?sub_confirmation=1 "Subscribe to my YouTube Channel")
+[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://buymeacoffee.com/kariyaraj "Buy me a Coffee")
 
 ## :books: Learn More
 
@@ -336,16 +324,4 @@ Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 ## :star: Give A Star
 
 You can also give this repository a star to show more people and they can use this repository.
-
-## :star2: Star History
-
-<a href="https://star-history.com/#sanidhyy/genius-ai&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/genius-ai&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/genius-ai&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/genius-ai&type=Timeline" />
-</picture>
-</a>
-
-<br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -46,3 +46,17 @@ export const siteConfig: Metadata = {
 export const links = {
   sourceCode: "https://github.com/kariyaraj/Genie",
 } as const;
+
+// <script>
+//   window.watsonAssistantChatOptions = {
+//     integrationID: "76ec23cf-500b-4f5e-bb68-1d013fdeb0bf", // The ID of this integration.
+//     region: "eu-gb", // The region your integration is hosted in.
+//     serviceInstanceID: "bf336989-02a9-462c-99af-357569671baf", // The ID of your service instance.
+//     onLoad: async (instance) => { await instance.render(); }
+//   };
+//   setTimeout(function(){
+//     const t=document.createElement('script');
+//     t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+//     document.head.appendChild(t);
+//   });
+// </script>
