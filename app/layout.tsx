@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata: Metadata = siteConfig;
 const webChatOptions = {
-  integrationID: '76ec23cf-500b-4f5e-bb68-1d013fdeb0bf',
+  integrationID: '8b32e0fe-ee72-4e86-b765-8bc861cf12cf',
   region: 'eu-gb',
   serviceInstanceID: 'bf336989-02a9-462c-99af-357569671baf',
 };
